@@ -1,3 +1,3 @@
-List of exercises in the FullStack Open program, divided by branches into the different parts of the course.
+List of exercises in the FullStack Open program, catalogued by name (will divide them into branches hopefully soon).
 
 Just for correction and log.
