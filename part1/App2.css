@@ -1,0 +1,22 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 5%;
+    text-align: left;
+    background-color: lightblue;
+  }
+  
+  .header{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+  }
+  .parts, .total{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10%;
+    text-align: left;
+  }
+  .total{
+    text-decoration: overline;
+    margin-left: 13%;
+  }
+  
