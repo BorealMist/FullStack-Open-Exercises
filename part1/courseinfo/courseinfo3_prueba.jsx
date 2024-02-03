@@ -11,7 +11,7 @@ const Header = (props) =>{
 
   return(
     <div className='header' id='header'>
-      <h1>{props.course}</h1>
+      <h1 style={{color:props.color}}>{props.course}</h1>
     </div>
   )
 }
@@ -59,13 +59,13 @@ const App = () =>{
   const total = part1.exercises + part2.exercises + part3.exercises;
   return(
     <div className='App'>
-    <Header course={course} />
+    <Header course={course}color='purple' />
     <Part 
       part1={part1}color='blue' 
       part2={part2} 
       part3={part3}
     />
-    <Total total={total} color='orange'/>
+    <Total total={total} color='purple'/>
     </div>
   )
 }
